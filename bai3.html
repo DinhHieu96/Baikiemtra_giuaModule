@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (i=0;i<10;i++) {
+        let nam = parseInt(prompt("Nhap nam sinh: "));
+        let tuoi;
+
+        function tinhTuoi(nam) {
+            if (nam > 2019) {
+                alert("Khong hop le");
+            } else {
+                tuoi = 2019 - nam;
+            }
+            return tuoi;
+        }
+
+        alert("Số tuổi của bạn là: " + tinhTuoi(nam));
+    }
+
+</script>
+</body>
+</html>
